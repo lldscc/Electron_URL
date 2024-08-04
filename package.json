@@ -1,0 +1,17 @@
+{
+  "name": "electron_1",
+  "version": "1.0.0",
+  "description": "我的程序",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "llds",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.3.1",
+    "electron-builder": "^24.13.3"
+  }
+}
